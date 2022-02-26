@@ -4,12 +4,10 @@ function dctMatrix = computeDCTMatrix()
 % dctMatrix = COMPUTEDCTMATRIX() returns the 8x8 matrix of the DCT.
 %
 % The DCT output DCTOUT of an 8x8 matrix IN can be obtained as follows:
+%     DCTOUT = dctMatrix * IN * dctMatrix.';
 %
-% DCTOUT = dctMatrix * IN * dctMatrix.';
-%
-% and its inverse:
-%
-% IN = dctMatrix.' * DCTOUT * dctMatrix;
+% And its inverse:
+%     IN = dctMatrix.' * DCTOUT * dctMatrix;
 %
 
 dctMatrix = zeros(8, 8);
