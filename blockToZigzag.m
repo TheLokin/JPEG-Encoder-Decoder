@@ -1,6 +1,6 @@
 function [y] = blockToZigzag(X)
 % BLOCKTOZIGZAG converts an 8x8 matrix to a 64-element vector.
-% 
+%
 % Y = BLOCKTOZIGZAG(X) converts the 8x8 matrix X to a 64-element vector y 
 % following the zig-zag order defined by JPEG.
 %
