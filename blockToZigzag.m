@@ -11,7 +11,7 @@ if ~(sum(size(X) == [8, 8]) == 2)
     error('Only 8x8 matrices are supported.');
 end
     
-% The following code produces zigzagIndices.
+% The following code produces zigzagIndices
 % % %     zigzag = [...
 % % %          1  2  6  7 15 16 28 29;
 % % %          3  5  8 14 17 27 30 43;

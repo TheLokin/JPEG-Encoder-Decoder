@@ -12,7 +12,7 @@ if (numel(x) ~= 64)
     error('Only vectors with 64 elements are supported.');
 end
             
-% The following code produces izigzagIndices.   
+% The following code produces izigzagIndices
 % % %     m = reshape(1:64, [8 8])';
 % % %     mzigzag = block2zigzag(m);
 % % %     izigzagindices = zeros(1, 64);

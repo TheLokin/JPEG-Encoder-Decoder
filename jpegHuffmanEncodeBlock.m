@@ -60,7 +60,8 @@ for i = 2:length(block)
     if block(i) == 0
         zeros = zeros+1;
     else
-        % ZLR encoding when the run of zeros has exceeded the maximum length
+        % ZLR encoding when the run of zeros has exceeded the maximum
+        % length
         if zeros > 15
             streak = floor(zeros/15);
             for z=1:streak
